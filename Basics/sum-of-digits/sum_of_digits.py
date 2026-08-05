@@ -1,4 +1,5 @@
 def sum_of_digits(N):
+    N = abs(N)
     sum = 0
     while N != 0:
         last_digit = N % 10
