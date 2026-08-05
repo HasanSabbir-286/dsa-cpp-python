@@ -12,7 +12,7 @@ def get_fibb_num(n):
         next = first + second
         first = second
         second = next
-
+    
     return second
 
 n = int(input("Enter the value of N: "))
