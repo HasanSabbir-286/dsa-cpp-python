@@ -9,9 +9,7 @@ int main() {
     int smallest = INT_MAX;
 
     for(int i = 0; i < size; i++){
-        if(marks[i] < smallest){
-            smallest = marks[i];
-        }
+        smallest = min(marks[i], smallest);
     }
     
     cout<< "Smallest = " << smallest << endl;

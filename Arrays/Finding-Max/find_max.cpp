@@ -9,9 +9,7 @@ int main() {
     int highest = INT_MIN;
 
     for(int i = 0; i < size; i++){
-        if(marks[i] > highest){
-            highest = marks[i];
-        }
+        highest = max(marks[i], highest);
     }
     
     cout<< "Highest = " << highest << endl;
