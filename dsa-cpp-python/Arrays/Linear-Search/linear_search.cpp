@@ -13,7 +13,7 @@ int linearSearch(int arr[], int size, int target) {
 }
 
 int main() {
-    int arr[] = {1, 4, 9, 3, 10, 5, 4, 2};
+    int arr[] = {1, 4, 9, 30, 10, 5, 4, 2};
     int target;
 
     cin >> target;
